@@ -1,11 +1,11 @@
 interface AppContextType {
-  state: any,
-  setState: React.Dispatch<any>
+  error: Error | null,
+  setError: React.Dispatch<Error | null>
 }
 
 interface AuthContextType {
-  state: any,
-  setState: React.Dispatch<any>
+  isAuthenticated: boolean,
+  setIsAuthenticated: React.Dispatch<boolean>
 }
 
 export type {

@@ -4,11 +4,11 @@ import type { Provider } from "types/providers"
 import type { AuthContextType } from "types/contexts"
 
 const AuthProvider: Provider = ({ children }): React.ReactElement => {
-  const [state, setState] = useState<any>()
+  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false)
 
   const ctx: AuthContextType = {
-    state,
-    setState
+    isAuthenticated,
+    setIsAuthenticated
   }
 
   return (

@@ -4,11 +4,11 @@ import type { Provider } from "types/providers"
 import type { AppContextType } from "types/contexts"
 
 const AppProvider: Provider = ({ children }): React.ReactElement => {
-  const [state, setState] = useState<any>()
+  const [error, setError] = useState<Error | null>(null)
 
   const ctx: AppContextType = {
-    state,
-    setState
+    error,
+    setError
   }
 
   return (

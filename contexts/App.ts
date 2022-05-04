@@ -2,8 +2,8 @@ import { createContext } from "react"
 import { AppContextType } from "types/contexts"
 
 const defaultCtx: AppContextType = {
-  state: null,
-  setState: () => null
+  error: null,
+  setError: () => null
 }
 
 const AppContext = createContext(defaultCtx)
