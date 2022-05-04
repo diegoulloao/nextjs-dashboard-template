@@ -2,8 +2,8 @@ import { createContext } from "react"
 import type { AuthContextType } from "types/contexts"
 
 const defaultCtx: AuthContextType = {
-  state: null,
-  setState: () => null
+  isAuthenticated: false,
+  setIsAuthenticated: () => null
 }
 
 const AuthContext = createContext(defaultCtx)

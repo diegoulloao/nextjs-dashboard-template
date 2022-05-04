@@ -4,11 +4,14 @@ import type { Provider } from "types/providers"
 import type { AppContextType } from "types/contexts"
 
 const AppProvider: Provider = ({ children }): React.ReactElement => {
+  const [theme, setTheme] = useState<"light" | "dark">("dark")
   const [error, setError] = useState<Error | null>(null)
 
   const ctx: AppContextType = {
     error,
-    setError
+    setError,
+    theme,
+    setTheme
   }
 
   return (
