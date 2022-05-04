@@ -1,11 +1,11 @@
-import { Footer } from "components"
+import { Page } from "@geist-ui/core"
+import styles from "styles/layouts/Simple.module.css"
 
 const SimpleLayout: React.FC<{ children: React.ReactElement }> = ({ children }): JSX.Element => {
   return (
-    <div id="simple-layout" className="layout simple">
+    <Page id="simple-layout" className={styles.simpleLayout}>
       { children }
-      <Footer />
-    </div>
+    </Page>
   )
 }
 
