@@ -32,7 +32,7 @@ const Login: NextPage = (): React.ReactElement => {
 
           <Grid>
             <Button type="success" width="100%" onClick={onLoginClick}>
-              Iniciar sesión
+              Login
             </Button>
           </Grid>
         </Grid.Container>
