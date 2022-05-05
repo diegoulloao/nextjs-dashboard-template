@@ -27,7 +27,7 @@ const Login: NextPage = (): React.ReactElement => {
           </Grid>
 
           <Grid>
-            <Input.Password scale={4 / 3} width="100%" placeholder="Contraseña" {...bindPassword} />
+            <Input.Password scale={4 / 3} width="100%" placeholder="Password" {...bindPassword} />
           </Grid>
 
           <Grid>
