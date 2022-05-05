@@ -1,16 +1,13 @@
 interface AppContextType {
-  error: Error | null,
+  error: Error | null
   setError: React.Dispatch<Error | null>
-  theme: "light" | "dark"
-  setTheme: React.Dispatch<"light" | "dark">
+  theme: 'light' | 'dark'
+  setTheme: React.Dispatch<'light' | 'dark'>
 }
 
 interface AuthContextType {
-  isAuthenticated: boolean,
+  isAuthenticated: boolean
   setIsAuthenticated: React.Dispatch<boolean>
 }
 
-export type {
-  AppContextType,
-  AuthContextType
-}
+export type { AppContextType, AuthContextType }

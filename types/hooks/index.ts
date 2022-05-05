@@ -1,11 +1,11 @@
-import type { AuthContextType, AppContextType } from "types/contexts"
-import type { InputBinding } from "types/geist"
+import type { AuthContextType, AppContextType } from 'types/contexts'
+import type { InputBinding } from 'types/geist'
 
 export interface Auth extends AuthContextType {
   authenticate: (username: string, password: string) => void
 }
 
-export interface App extends AppContextType {}
+export type App = AppContextType
 
 export interface Login {
   bindUsername: InputBinding

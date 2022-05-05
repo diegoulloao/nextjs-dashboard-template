@@ -1,5 +1,3 @@
-import useLogin from "hooks/pages/useLogin"
+import useLogin from 'hooks/pages/useLogin'
 
-export {
-  useLogin
-}
+export { useLogin }

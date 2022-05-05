@@ -1,7 +1,4 @@
-import useApp from "hooks/providers/useApp"
-import useAuth from "hooks/providers/useAuth"
+import useApp from 'hooks/providers/useApp'
+import useAuth from 'hooks/providers/useAuth'
 
-export {
-  useApp,
-  useAuth
-}
+export { useApp, useAuth }

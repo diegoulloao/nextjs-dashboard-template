@@ -1,7 +1,4 @@
-import AppContext from "contexts/App"
-import AuthContext from "contexts/Auth"
+import AppContext from 'contexts/App'
+import AuthContext from 'contexts/Auth'
 
-export {
-  AppContext,
-  AuthContext
-}
+export { AppContext, AuthContext }

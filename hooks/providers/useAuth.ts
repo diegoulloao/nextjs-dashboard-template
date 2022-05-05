@@ -1,7 +1,7 @@
-import { useContext } from "react"
-import { AuthContext } from "contexts"
-import type { Auth } from "types/hooks"
-import type { AuthContextType } from "types/contexts"
+import { useContext } from 'react'
+import { AuthContext } from 'contexts'
+import type { Auth } from 'types/hooks'
+import type { AuthContextType } from 'types/contexts'
 
 const useAuth = (): Auth => {
   const { isAuthenticated, setIsAuthenticated } = useContext<AuthContextType>(AuthContext)
@@ -13,7 +13,7 @@ const useAuth = (): Auth => {
   return {
     isAuthenticated,
     setIsAuthenticated,
-    authenticate
+    authenticate,
   }
 }
 

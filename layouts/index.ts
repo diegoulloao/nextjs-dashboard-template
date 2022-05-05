@@ -1,7 +1,4 @@
-import SimpleLayout from "layouts/Simple"
-import DashboardLayout from "layouts/Dashboard"
+import SimpleLayout from 'layouts/Simple'
+import DashboardLayout from 'layouts/Dashboard'
 
-export {
-  SimpleLayout,
-  DashboardLayout
-}
+export { SimpleLayout, DashboardLayout }

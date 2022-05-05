@@ -1,9 +1,9 @@
-import { Footer } from "components"
+import { Footer } from 'components'
 
 const DashboardLayout: React.FC<{ children: React.ReactElement }> = ({ children }): JSX.Element => {
   return (
     <div id="dashboard-layout" className="layout dashboard">
-      { children }
+      {children}
       <Footer />
     </div>
   )
