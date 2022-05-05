@@ -4,7 +4,7 @@ const Document: React.FC = (): React.ReactElement => {
   return (
     <Html>
       <Head>
-        <meta name="description" content="Dashboard, Club Berlin" />
+        <meta name="description" content="Dashboard Application" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
