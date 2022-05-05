@@ -10,7 +10,7 @@ const Login: NextPage = (): React.ReactElement => {
   return (
     <>
       <Head>
-        <title>Iniciar sesión | Club Berlin</title>
+        <title>Login | Dashboard Application</title>
       </Head>
 
       <Grid.Container justify="center">
