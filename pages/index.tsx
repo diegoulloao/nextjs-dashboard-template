@@ -16,10 +16,10 @@ const Login: NextPage = (): React.ReactElement => {
       <Grid.Container justify="center">
         <Grid.Container xs={24} sm={4} direction="column" gap={2}>
           <Grid xs direction="column" alignItems="center">
-            <Text h2>Club Berlin</Text>
-            <Text h4 type="secondary">
-              Dashboard
-            </Text>
+            <Text h2>Dashboard</Text>
+            {/*<Text h4 type="secondary">*/}
+              {/*Dashboard*/}
+            {/*</Text>*/}
           </Grid>
 
           <Grid>
